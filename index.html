@@ -1,0 +1,52 @@
+<!DOCTYPE html>  <!--Specifies the version of HTML document
+There are various versions of HTML like HTML5, HTML4.1 Strict
+HTML4.1 Transitional, HTML4.1 Frameset
+HTML5 has multimedia support
+Easy to integrate with databases
+Extremely good performance
+HTML4.1 Strict 
+It adheres to the syntax and no flexibility will be given when it comes to syntax
+HTML4.1 Transitional 
+It is good for transitioning from older versions of HTML documents 
+HTML4.1 Frameset 
+It is used when multiple frames are nested within a single web page
+
+Every HTML elements is wrapped inside a rectangular container 
+It has height width border padding margin 
+
+Disadvantages of CSS
+Cross Browser issues -> Unusual Behaviour of some property on different browsers
+There is no parent selector
+Browser compatibility 
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- External CSS -->
+    <!-- <link rel ="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="ss.less">
+    <!-- Internal CSS / Embedded CSS -->
+    <style>
+        
+        
+    </style>
+</head>
+<body>
+    <!-- Inline CSS -->
+    <h1 style="background-color: yellow;">Types of Selectors</h1>
+
+    <div class="main">
+        <p>This is para 1</p>
+        <p>This is para 2</p>
+        <p class="3rd">This is para 3
+            <div>This is inside the p</div>
+        </p>
+    </div>
+    <p id="outer">This is first sibling of div</p>
+    <p>This is second sibling of div</p>
+
+</body>
+</html>
