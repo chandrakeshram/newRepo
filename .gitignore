@@ -1,2 +1,4 @@
 pro.java
-*.log
+/dir
+
+*.log1
